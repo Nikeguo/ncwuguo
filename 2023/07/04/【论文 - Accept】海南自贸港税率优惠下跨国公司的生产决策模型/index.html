@@ -1,0 +1,507 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>海南自贸港税率优惠下跨国公司的生产决策模型 | 小郭家的一柯聪</title><meta name="author" content="Guo Keting"><meta name="copyright" content="Guo Keting"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="以海南自贸港“进口加工增值内销免税”政策为背景，针对具有生产规模不经济特性行业（如汽车制造、渔业等），研究跨国公司与内地制造商的产量决策问题。考虑跨国公司同时在海南和内地生产、仅在海南或内地生产的三种生产模式，基于博弈理论刻画了自贸港税率优惠政策下的纳什均衡和利润分配，并分析了税率、跨海运输成本等关键参数的影响。研究发现跨国公司同时在海南与内地生产可以提高其利润及消费者剩余。此外，当进口材料成本较">
+<meta property="og:type" content="article">
+<meta property="og:title" content="海南自贸港税率优惠下跨国公司的生产决策模型">
+<meta property="og:url" content="http://example.com/2023/07/04/%E3%80%90%E8%AE%BA%E6%96%87%20-%20Accept%E3%80%91%E6%B5%B7%E5%8D%97%E8%87%AA%E8%B4%B8%E6%B8%AF%E7%A8%8E%E7%8E%87%E4%BC%98%E6%83%A0%E4%B8%8B%E8%B7%A8%E5%9B%BD%E5%85%AC%E5%8F%B8%E7%9A%84%E7%94%9F%E4%BA%A7%E5%86%B3%E7%AD%96%E6%A8%A1%E5%9E%8B/index.html">
+<meta property="og:site_name" content="小郭家的一柯聪">
+<meta property="og:description" content="以海南自贸港“进口加工增值内销免税”政策为背景，针对具有生产规模不经济特性行业（如汽车制造、渔业等），研究跨国公司与内地制造商的产量决策问题。考虑跨国公司同时在海南和内地生产、仅在海南或内地生产的三种生产模式，基于博弈理论刻画了自贸港税率优惠政策下的纳什均衡和利润分配，并分析了税率、跨海运输成本等关键参数的影响。研究发现跨国公司同时在海南与内地生产可以提高其利润及消费者剩余。此外，当进口材料成本较">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/avatar_bhl.jpg">
+<meta property="article:published_time" content="2023-07-04T07:56:00.000Z">
+<meta property="article:modified_time" content="2023-09-27T09:56:00.000Z">
+<meta property="article:author" content="Guo Keting">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/img/avatar_bhl.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2023/07/04/%E3%80%90%E8%AE%BA%E6%96%87%20-%20Accept%E3%80%91%E6%B5%B7%E5%8D%97%E8%87%AA%E8%B4%B8%E6%B8%AF%E7%A8%8E%E7%8E%87%E4%BC%98%E6%83%A0%E4%B8%8B%E8%B7%A8%E5%9B%BD%E5%85%AC%E5%8F%B8%E7%9A%84%E7%94%9F%E4%BA%A7%E5%86%B3%E7%AD%96%E6%A8%A1%E5%9E%8B/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//www.clarity.ms"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?daa4c5cb9ae94b6cfc72413201e9956f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script>(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+    t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "9ub00easd2");</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: {"limitDay":90,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: true
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":100,"languages":{"author":"作者: Guo Keting","link":"链接: ","source":"来源: 小郭家的一柯聪","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体中文","cht_to_chs":"你已切换为简体中文","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#FF6666","bgDark":"#1f1f1f","position":"bottom-left"},
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: true,
+  islazyload: false,
+  isAnchor: true,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '海南自贸港税率优惠下跨国公司的生产决策模型',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-09-27 17:56:00'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const now = new Date()
+          const hour = now.getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/l-lin/font-awesome-animation/dist/font-awesome-animation.min.css"  media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/copyright.css"><link rel="stylesheet" href="/css/equipment.css"><link rel="stylesheet" href="/css/welcome.css"><link rel="stylesheet" href="/font/PingFangHK.ttf"><script async src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/carousel-touch.min.js"></script><meta name="generator" content="Hexo 7.1.1"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+  window.addEventListener('load',() => { preloader.endLoading() })
+
+  if (true) {
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+  }
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar_bhl.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">16</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-user-friends"></i><span> 友人帐</span></a></div><div class="menus_item"><a class="site-page" href="/equipment/"><i class="fa-fw fas fa-heart"></i><span> 我的装备</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw far fa-image"></i><span> 图库</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user-circle"></i><span> 关于我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background: /img/cover_default"><nav id="nav"><span id="blog-info"><a href="/" title="小郭家的一柯聪"><span class="site-name">小郭家的一柯聪</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-user-friends"></i><span> 友人帐</span></a></div><div class="menus_item"><a class="site-page" href="/equipment/"><i class="fa-fw fas fa-heart"></i><span> 我的装备</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw far fa-image"></i><span> 图库</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-user-circle"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">海南自贸港税率优惠下跨国公司的生产决策模型</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2023-07-04T07:56:00.000Z" title="发表于 2023-07-04 15:56:00">2023-07-04</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2023-09-27T09:56:00.000Z" title="更新于 2023-09-27 17:56:00">2023-09-27</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AE%BA%E6%96%87/">论文</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">11.5k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>38分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="海南自贸港税率优惠下跨国公司的生产决策模型"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/2023/07/04/%E3%80%90%E8%AE%BA%E6%96%87%20-%20Accept%E3%80%91%E6%B5%B7%E5%8D%97%E8%87%AA%E8%B4%B8%E6%B8%AF%E7%A8%8E%E7%8E%87%E4%BC%98%E6%83%A0%E4%B8%8B%E8%B7%A8%E5%9B%BD%E5%85%AC%E5%8F%B8%E7%9A%84%E7%94%9F%E4%BA%A7%E5%86%B3%E7%AD%96%E6%A8%A1%E5%9E%8B/#post-comment"><span id="twikoo-count"><i class="fa-solid fa-spinner fa-spin"></i></span></a></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><div class="note info simple"><p>Title: 海南自贸港税率优惠下跨国公司的生产决策模型<br>Key words: 海南自由贸易港；税率优惠；加工增值；生产决策；跨国公司<br>DOI: <a target="_blank" rel="noopener" href="https://doi.org/10.15886/j.cnki.hnus.202304.0139">10.15886&#x2F;j.cnki.hnus.202304.0139</a><br>Publication: 海南大学学报(人文社会科学版) 【CSSCI】<br>Cite: 吉清凯，郭柯廷，胡祥培．海南自贸港税率优惠下跨国公司的生产决策模型[J&#x2F;OL]．海南大学学报(人文社会科学版).</p>
+</div>
+
+<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>以海南自贸港“进口加工增值内销免税”政策为背景，针对具有生产规模不经济特性行业（如汽车制造、渔业等），研究跨国公司与内地制造商的产量决策问题。考虑跨国公司同时在海南和内地生产、仅在海南或内地生产的三种生产模式，基于博弈理论刻画了自贸港税率优惠政策下的纳什均衡和利润分配，并分析了税率、跨海运输成本等关键参数的影响。研究发现跨国公司同时在海南与内地生产可以提高其利润及消费者剩余。此外，当进口材料成本较高且跨海运输成本较低时，跨国公司应将海南作为其主要生产基地；当进口材料成本较低且跨海运输成本较高时，应将内地作为其主要生产基地。本研究结论为自贸港税率优惠政策下跨国公司的生产决策提供了有益的管理启示</p>
+<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>习近平总书记在2018年4月13日庆祝海南成立经济特区30周年大会上发表的重要讲话，标志着海南自由贸易港的建设拉开序幕。中共中央国务院随后也发布了《关于支持海南全面深化改革开放的指导意见》，为海南自由贸易港的建设提供了指导。在海南自由贸易港建设中，有效利用外资和引进跨国企业是非常重要的一环。海南实际使用外资自2019年至2022年连续三年保持增长，分别为15.11亿美元、30.33亿美元、35.19亿美元、40.5亿美元[^1]。此外，全省新设立外商投资企业也呈现良好的增长态势，分别为338家、1005家、1936家、1320家，外资外贸发展活力十足。</p>
+<p>税收政策是自贸港政策体系中的重要一环，是促进自由贸易港经济发展的重要手段之一。为充分发挥海南洋浦保税港区的先行先试作用，2021年7月，海口海关制定了《洋浦保税港区加工增值货物内销税收征管海关实施暂行办法》，细化了生产制造的免税规定——鼓励类产业企业生产的不含进口料件或含进口料件在洋浦保税港区进口加工增值额超过（含）30%的货物进入内地免征进口关税。此政策先后扩大至海口综合保税区、海口空港综合保税区等地区，未来海南“封关运作”后将在全岛范围内实施。海南澳斯卡国际粮油有限公司作为一家海南本土企业，享受到了零关税加工增值的首票优惠，该企业进口货值455万元大豆用以加工生产大豆油销往内地，该政策为其节省了41万元的关税成本[^2]，截至2022年底，该公司累计免征关税1.9亿元。同时截至到2023年5月，海南开展加工增值内销货值31.78亿元，共计免关税2.81亿元。</p>
+<p>尽管海南拥有得天独厚的税收优惠政策，但相对于内地，特别是珠三角、长三角等经济发达地区，跨国企业在海南设立生产基地可能会面临一些不利之处，如海南劳动力规模较小、生产水平较低，产品需通过比较低效、受恶劣天气影响频繁的航运才能抵达内地市场[^3]。因此，跨国公司在生产决策时面临着海南税率优惠与交通不便、内地生产高效便捷之间的抉择。再加上内地本土制造商的激烈竞争，跨国公司的生产决策在新的条件下成为一个具有现实和学术意义的重要问题。</p>
+<h1 id="文献回顾"><a href="#文献回顾" class="headerlink" title="文献回顾"></a>文献回顾</h1><p>自由贸易港是当今世界最高水平的开放形态，也是国内外学者研究的重点议题。自贸港宣布建设以来，已有许多学者针对自贸港的知识产权保护[^4]、财税改革[^5]、金融开放[^6]、产业结构[^7]、工业发展进程[^8]等展开过细致的研究，为自贸港建设提供了丰富的理论支撑和实践指导。区别于以上的宏观研究，本文聚焦于自贸港政策中税收政策对跨国公司生产的影响。从现有研究来看，与本研究主题相关的研究主要有两个方面：一是关于税制因素对供应链企业决策的影响，二是生产规模不经济对企业运营的影响。税作为财务领域的概念，最初与供应链领域研究关系并不密切，但实际上，企业税务支出通常会占据企业支出的较大比例，在供应链研究中应当将税务因素纳入考虑。Cohen et al. (1997)[^9]指出，公司仅仅追求成本最小化并不意味着公司能够实现利润最大化，还必须综合考虑与公司相关的多种税务因素。Shunko et al. (2017)[^10]的研究同样表明，如果能够将税务因素考虑在企业的战略决策中，便可以节省大量的税务支出，从而提高企业税后净利润。近年来，国内外学者广泛研究了税制因素在供应链中的影响作用，其中重点关注的是关税、企业所得税和增值税出口退税。如今，全球贸易正呈现自由化和全球化的趋势，各国之间的贸易往来日益频繁。因此，关税成为贸易中的一个重要问题，同时降低关税也是海南自贸港的重点政策之一。关税直接影响着跨境供应链运营，余淼杰等(2016)[^11]的研究表明降低关税可以降低跨境运营成本，而提高关税则会损害供应链的利润。刘名武等(2022)[^12]研究绿色供应链下关税对供应链决策的影响，结果表明降低关税不仅可以提高供应链成员的利润，还能激励企业生产绿色度更高的产品。徐博等(2021)[^13]的研究表明更低的关税会促使企业提高进口中间品的质量。刘名武等(2022)[^14]还研究了在政府补贴下加征关税对制造商、分销商和零售商组成的三级供应链网络中利润分配的影响。关税同样会影响跨国公司的跨境生产策略和偏好。Díez (2014)[^15]研究发现当本国关税税率较低时，跨国公司更倾向于将制造业务外包给生产成本更低的国家，然后再进行重新进口。关税也会对跨国公司的全球采购策略产生影响，Niu et al. (2019a)[^16]研究了进口产品存在质量溢出风险的情况下跨国公司的采购问题。Chen et al. (2022)[^17]研究本土制造溢价因素对全球制造商采购业务回流的问题，考虑了制造商与竞争者的横向竞争以及制造商与供应商的纵向合作，研究表明激励全球制造商偏好从本土采购，政府仅仅采取提高关税的措施并可能会适得其反，提高国民对本国产品的认同度起着至关重要的作用。Kopel et al. (2023)[^18]考虑了跨境关税影响下企业生产设施在本国还是境外的偏好选择问题。跨境供应链除考虑关税因素外，仍需考虑物流的影响。Hu et al. (2022)[^19]通过建立供应商、制造商和第三方物流供应商的模型，发现关税的因素使供应链协调难以实现。梁喜等(2021)[^20]将关税、物流成本融入跨境双渠道供应链模型中，研究表明关税变动对国内零售商利润的影响是好是坏取决于消费者的价格敏感系数。Dai et al. (2023)[^21]研究由国内、进口疫苗制造商组成的竞争模型，基于演化博弈研究不同主体承担关税以及跨境运输的不确定性对两类制造商决策偏好的影响。关税的核算标准分为从量和从价两类。Niu et al. (2022)[^22]考虑两家销售不同质量产品的跨境电子零售商的博弈模型，研究发现企业的高端产品在从量关税下税负更小，而企业的低端产品在从价关税下税负更小。在企业所得税方面，Niu et al. (2019b)[^23]和Hsu et al. (2019)[^24]的研究发现不同辖区所得税率差距越大跨国公司越有动机将企业利润转移到低税辖区所在部门。Xu et al. (2023)[^25]的研究结果表明跨国制造商的供应链结构偏好会随两国所得税率差异的不同而变化。研究企业所得税的影响时通常会与企业的转移定价相联系，Lai et al. (2021)[^26]在研究跨国公司采购外包问题时同样发现跨国公司倾向于在低税管辖区采购并采取转让定价的方式交送至制造商，以节省所得税支出。在增值税出口退税方面，Hsu et al. (2011)[^27]以香港自由港为背景，结合当地进出口政策构建了不同的供应链结构并归纳出相应的最佳生产与销售策略。Xu et al. (2018)[^28]研究跨国公司的零部件采购问题，在考虑出口退税的因素时，跨国公司是选择自行采购还是委托上游制造商采购。Niu et al. (2020)[^29]结合增值税出口退税政策研究跨国公司是否要将生产设施转移到劳动力成本更低的新兴经济体国家，研究发现两国消费市场差异会影响跨国公司的决策。通过学者们的研究总结，“税”对企业运营产生了多种程度的影响，总体而言，较低的税率有助于提高企业生产质量[^12][^13]、促进本土化生产[^17]、减轻企业税负[^11][^15][^22][^23][^24][^26]的作用。因此，在自贸港扩大开放的背景下，探究各项税率政策对跨国公司生产的影响颇为有趣。零关税加工增值政策也属海南首次提出，这也是本研究的一个特色之处。</p>
+<p>与本文相关的另一个主题是规模不经济。在上述及众多文献中，制造商或供应商的生产成本多采用线性[^20][^25][^30][^31]或归一化为零[^23][^29][^32]处理，然而在企业的实际生产中，由于资源受限或能力不足会导致规模不经济现象的发生。从经济的角度来讲，规模不经济性是随着企业生产规模的扩大，产品的单位生产成本提高的一种现象[^33]；从管理的角度来讲，企业过分追求市场规模而忽视经济的规律性便有可能导致企业面临规模不经济的状况[^34]；从企业发展的角度来讲，企业的生产未达到行业所要求的最低规模限度同样会导致规模不经济的风险[^35]。规模不经济在许多行业都会出现，如汽车行业[^36]、渔业[^37]、一般制造业[^38]等。本文在自贸港加工增值零关税的政策背景下，关注非线性生产成本的因素，针对跨国公司不同生产模式进行分析，以探究税率优惠政策对跨国公司运营决策和消费者剩余的影响。</p>
+<p>相较于现有的研究，本研究的贡献体现在：从海南自贸港的视角，结合海南特有的零关税加工增值政策，对跨国公司和内地竞争制造商的生产数量设置决策变量，在跨国公司不同生产模式下，探讨最优生产数量的决策问题，以及关税和运输成本对跨国公司生产策略产生的影响，以期为跨国公司到海南自贸港投资布局加工工厂提供理论和方法指导。本文研究成果不仅是对自贸港税率政策相关文献的补充，同时也扩展了税制影响下的供应链管理研究，具有重要的理论和实践意义。</p>
+<h1 id="模型结构与参数假设"><a href="#模型结构与参数假设" class="headerlink" title="模型结构与参数假设"></a>模型结构与参数假设</h1><p>本文考虑一个跨国公司（MNC，简记M）与一个内地制造商（LM，简记L）之间的竞争模型。这两个公司使用进口原材料进行产品加工，并在我国内地市场展开产量竞争。跨国公有选择在海南或内地投资新设立工厂进行加工生产的权利。在内地生产时，跨国公司与内地制造商一样，以价格$c$进口原材料，并加工完成后直接在内地市场销售。其中 为进口原料的不含关税价格， 为关税税率。当跨国公司在海南生产时，将能享受免关税加工的优惠，此时的原料进口价格为 ，但需要承担单位成本 的运输成本将加工完成的产品运输至内地市场进行销售。假设产品潜在需求为 ，则产品的逆需求函数为： ，其中 为跨国公司的产量， 为内地制造商的产量，类似逆需求函数在供应链管理文献中很常见[^23][^29]。跨国公司的产量 由两部分组成：在海南的产量 和在内地的产量 。由于海南与内地在生产技术、劳动资源上存在差别，两个地区的生产成本会有所不同。假设在内地（或海南）生产$q$单位产品，需要生产成本为 （或 ），系数 ， 衡量企业生产规模不经济的程度， 越大说明不经济程度越高[^38][^40]。该系数同样也可以用来描述生产技术水平，数值越小说明生产技术水平越高。本文所涉及的参数及注释总结如表1。</p>
+<table>
+<thead>
+<tr>
+<th><div style="width: 60pt">参数</div></th>
+<th><center>注释</center></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>$\alpha$</td>
+<td>市场规模</td>
+</tr>
+<tr>
+<td>$p$</td>
+<td>销售价格</td>
+</tr>
+<tr>
+<td>$r$</td>
+<td>进口原材料的关税税率</td>
+</tr>
+<tr>
+<td>$b_j$</td>
+<td>生产规模不经济的程度，$j\in{0,1}$，0表示内地；1表示海南</td>
+</tr>
+<tr>
+<td>$t$</td>
+<td>海南加工的产品运输至内地的单位运输成本</td>
+</tr>
+<tr>
+<td>$c$</td>
+<td>进口原材料的到岸价格（CIF价格）</td>
+</tr>
+<tr>
+<td><div style="width: 60pt">决策变量</div></td>
+<td></td>
+</tr>
+<tr>
+<td>$q_i$</td>
+<td>生产数量，$i\in{l,m,h,n}$，l表示内地厂商，m表示跨国公司；h表示跨国公司在海南的生产机构；n表示跨国公司在内地的生产机构。$q_m&#x3D;q_h+q_n$。</td>
+</tr>
+</tbody></table>
+<p>根据跨国公司的生产策略的选择，构建如下三个模型，如图1所示。模型1：跨国公司只在海南生产；模型2：跨国公司只在内地生产；模型3：跨国公司同时在内地与海南生产。<br><img src="https://alist-v312.nikeguo.repl.co/d/OneDrive%20-%20NCWU/Picture%20bed/blog/page/Figure-1_model_hdxb.svg" alt="Fig.1"></p>
+<p>为聚焦研究主题，深入分析海南自贸零关税加工增值政策对跨国公司生产决策的影响，对一些复杂的问题加以简化，对模型做如下假设：<br>假设1：跨国公司与内地制造商每生产一单位最终产品需要投入一单位进口材料。<br>假设2：跨国公司与内地制造商无产能约束限制。<br>假设3：本文假设内地的加工技术水平更高，即 ，其中内地指加工设施位于内地的内地制造商和跨国公司设立在内地的制造工厂。<br>假设4：市场为双寡头市场，市场中只考虑跨国公司与内地制造商，两家公司制造的产品同质，在市场中完美替代，两家公司无合作关系。</p>
+<h1 id="模型求解与分析"><a href="#模型求解与分析" class="headerlink" title="模型求解与分析"></a>模型求解与分析</h1><h2 id="模型求解"><a href="#模型求解" class="headerlink" title="模型求解"></a>模型求解</h2><h3 id="模型1：跨国公司只在海南生产"><a href="#模型1：跨国公司只在海南生产" class="headerlink" title="模型1：跨国公司只在海南生产"></a>模型1：跨国公司只在海南生产</h3><p>跨国公司只在海南生产时两家公司的利润函数分别表示为：<br>${\widetilde{\pi}}_l(q_l)&#x3D;(p-c-cr)q_l-b_0\frac{q_l^2}{2}$<br>${\widetilde{\pi}}_m(q_m)&#x3D;(p-c-t)q_m-b_1\frac{q_m^2}{2}$</p>
+<p>考虑跨国公司与内地制造商的静态博弈，对模型求解可以得出博弈均衡。</p>
+<p><strong>结论1：</strong> 当跨国公司只在海南生产时，跨国公司的最优产量为$\frac{b_0(\alpha-c-t)+\alpha-c-2t+cr}{3+2b_1+b_0(2+b_1)}$，<br>内地制造商的最优产量为$\frac{b_1(\alpha-c-cr)+\alpha-c+t-2cr}{3+2b_1+b_0(2+b_1)}$，<br>市场的最优销售价格为$\frac{\alpha+2c+cr+t+b_1(\alpha+c+cr)+b_0(\alpha+\alpha b_1+c+t)}{3+2b_1+b_0(2+b_1)}$，<br>跨国公司的均衡利润为$\frac{(2+b_1)(b_0(\alpha-c-t)+\alpha-c+cr-2t)^2}{2(3+2b_1+2b_0+b_0b_1)^2}$，<br>内地制造商的均衡利润为$\frac{(2+b_0)(b_1(\alpha-c-cr)+\alpha-c-2cr+t)^2}{2(3+2b_1+2b_0+b_0b_1)^2}$。</p>
+<p><strong>推论1</strong>：当跨国公司只在海南生产时，满足条件$b_1&lt;\frac{\alpha-c-t}{\alpha-c-cr}b_0+\frac{3\left(cr-t\right)}{\alpha-c-cr}$，跨国公司的产量高于内地制造商；满足条件$b_1&lt;\frac{\left(\alpha-c-t\right)^2}{\left(\alpha-c-cr\right)^2}b_0+\frac{2\left(cr-t\right)\left(2\alpha-t-2c-cr\right)}{\left(\alpha-c-cr\right)^2}$，跨国公司的最优利润高于内地制造商。</p>
+<p>推论1说明跨国公司只在海南生产时，满足一定条件其产量和利润会优于内地制造商。但这些条件比较苛刻，例如产品服务于小众市场（市场容量较小）、关税成本很高（关税税率高或进口材料价值高）、海南运往内地的运输成本对跨国公司而言是微不足道的（运输成本很小）或海南的加工技术水平与内地相近。只有这样，跨国公司才有可能在内地市场的竞争中超过其竞争对手。因此，尽管海南拥有内地无法享受到的税率优惠政策，但也只有不断改进生产技术、改善经营环境、降低海峡运输成本，才能更充分发挥自贸港零关税制造的优势，也更能吸引跨国公司到海南投资。</p>
+<h3 id="模型2：跨国公司只在内地生产"><a href="#模型2：跨国公司只在内地生产" class="headerlink" title="模型2：跨国公司只在内地生产"></a>模型2：跨国公司只在内地生产</h3><p>跨国公司只在内地生产时两家公司是经典的古诺博弈，此时的利润函数分别表示为：<br>${\bar{\pi}}_l\left(q_l\right)&#x3D;\left(p-c-cr\right)q_l-b_0\frac{q_l^2}{2}$<br>${\bar{\pi}}_m\left(q_m\right)&#x3D;\left(p-c-cr\right)q_m-b_0\frac{q_m^2}{2}$</p>
+<p><strong>结论2：</strong> 跨国公司只在内地生产时，跨国公司和内地制造商的最优产量均为$\frac{\alpha-c(1+r)}{3+b_0}$，市场均衡售价均为$\frac{(1+b_0)\alpha+2(c+cr)}{3+b_0}$，最优利润均为$\frac{(2+b_0)(\alpha-c-cr)^2}{2(3+b_0)^2}$。</p>
+<p>联系结论1和结论2中跨国公司的最优产量和最优利润有如下推论。</p>
+<p><strong>推论2：</strong> 如果跨国公司只选择一处进行加工生产，如果为占领更大的市场份额，只有当满足条件时，才应该在海南生产；如果为获得比内地制造商更多的利润，只有当满足条件时，才应该在海南生产。<br>然而推论1和推论2的条件比较苛刻，大多数情况下都较难成立，进一步说明跨国公司如果只在海南生产不太可能获得竞争优势。那么海南自贸港的税率优惠政策到底能否吸引跨国公司到海南生产？接下来本文讨论跨国公司同时在两地生产的模型。</p>
+<h3 id="模型3：跨国公司同时在海南和内地生产"><a href="#模型3：跨国公司同时在海南和内地生产" class="headerlink" title="模型3：跨国公司同时在海南和内地生产"></a>模型3：跨国公司同时在海南和内地生产</h3><p>跨国公司同时在海南与内地生产时两家公司的利润函数分别表示为：<br>在跨国公司的利润函数中，第一项为在海南的销售收入与材料成本及运输成本之差，第二项为在内地的销售收入与材料成本之差，第三、四项分别为内地与海南的生产成本。在内地制造商的利润函数中，第一项为销售收入与材料成本之差，第二项为生产成本。采用相同的分析思路，得到跨国公司与内地制造商最优的生产决策如下。</p>
+<p><strong>结论3：</strong> 当跨国公司同时在海南与内地生产时，跨国公司在海南的最优产量为<br>为了排除一些琐碎的情况以便于分析，并确保跨国公司在海南和内地的产量均为正，市场容量有以下限制，令$\alpha &gt; \min x \left {c+t+\frac{3(t-cr)}{b_{0}}  ,c+cr+\frac{(3+2b_0)(cr-t)}{b_{1}(1+b_{0})}  \right }$。</p>
+<p>接下来采用灵敏度分析研究模型3中各参数如何影响两家公司的最优决策，结论如下。<br><strong>结论4：</strong> （1）跨国公司、内地制造商和跨国公司内地的产量随进口材料成本的增加而减少。（2）内地制造商、跨国公司内地的产量随关税税率的提高而减少。（3）跨国公司及其海南产量随运输成本的增加而减少。（4）跨国公司海南的产量随内地规模不经济程度的增加而增加，内地制造商和跨国公司内地的产量减少。（5）跨国公司及其海南的产量随海南规模不经济程度的增加而减少。<br>以上结论符合直觉判断。但值得注意的是，虽然内地制造商的生产决策与运输成本并无直接的相关性，但跨国公司与内地制造商存在竞争关系。如果运输成本增加，跨国公司可能会降低在海南的产量，内地制造商则可能会利用这个机会增加产量。运输成本的变动会对两家公司的竞争态势产生影响，进一步凸显提高海南与内地之间运输效率的重要性，这将有助于在海南生产制造的企业。</p>
+<p><strong>结论5：</strong> 当关税税率较高（小）时，跨国公司在海南的产量随进口原料成本单调递增（减）。<br>这一现象的解释：关税会放大进口原材料的总采购成本，关税税率越高，放大的程度就越大。因此，对于需要支付关税的内地制造商和跨国公司在内地的生产而言，当进口材料价格上升，采购成本增加的幅度将高于材料价格的增加幅度，导致生产成本增加，进而导致内地制造商和跨国公司在内地的产量下降。相反，对于跨国公司的海南生产基地，在零关税政策下，采购成本的变动幅度与原材料价格变动幅度相同。由于内地的总产量减少，市场竞争缓和，在较高的关税税率下，跨国公司在海南的生产基地利用采购成本优势扩大生产，即进口材料价格上升时增加产量。而当关税税率较低时，跨国公司在海南生产的采购成本优势缩小，接近内地水平，并且还需额外承担运输费用。此时跨国公司在海南的生产行为会和内地相同，即进口材料价格提高时降低产量。因此，进口材料成本的变动对跨国公司在海南生产的影响并非固定不变，同时受到关税税率的交叉影响。</p>
+<p><strong>结论6：</strong> 由于海南生产技术水平弱于内地，故跨国公司的总产量依然会随关税税率递减。<br>结论6强调了高关税对内地制造商和跨国公司都造成了不利影响。尽管海南享有特殊的免关税政策，但面对高关税税率的进口原材料，跨国公司无法仅依靠税率优惠来增加产量。该结论具有重要的管理启示：仅依靠税率优惠政策并不足以真正吸引投资者。海南需要利用国家赋予的更高水平和更深程度的对外开放能力，积极引进先进的生产工艺，提高生产效率，打破与内地相比生产能力不足的劣势，将更有力地吸引依赖高关税原材料的跨国制造企业。</p>
+<p><strong>结论7：</strong> 跨国公司同时在海南与内地生产时，跨国公司的总产量始终高于内地制造商。<br>结论7说明当生产规模不经济时，跨国公司在两地生产的成本优势变得显著。这是因为企业的边际成本随产量的增加而上升，跨国公司在两地分别生产可以减弱这一不利影响。生产相同数量的产品时，内地制造商需要支付更高的生产成本。尽管跨国公司需要承担跨海运输成本，但与生产成本非线性增长相比，运输成本的线性影响较小。需要注意的是，这一结论并不严格依赖于在海南生产的便利（关税优惠）和不便利性（运输成本）孰大孰小。但是在海南生产的关税优惠与运输成本的权衡，确实影响着跨国公司的生产计划，结论如下。</p>
+<p><strong>结论8：</strong> 称 $cr-t$ 为在跨国公司海南生产的直接节约成本。只要该直接节约成本为负，跨国公司在内地分配的产量更多；而当该直接节约成本为正时，只有当海南生产规模不经济程度很低时，跨国公司在海南的产量才会更高。<br>结论8中 $cr-t$ 表示免税加工节省的关税与额外运输成本的差额。当差额为负时，意味着海南生产在成本方面不具备优势，因此内地的产量会更高。换句话说，海南的生产成本超过了免税加工节省的关税所能带来的节约，从而导致内地制造商具有竞争优势。即使差额为正，也只有海南生产技术达到一定程度（规模不经济程度较低）时，跨国公司在海南的产量才会更高。这意味着海南需要拥有更高水平的生产技术和效率，以弥补额外的运输成本，才能在成本上具备优势。结论8强调了生产成本与运输成本之间的权衡，对于跨国公司选择生产地具有重要意义。海南需要进一步提升生产技术水平，并努力减少额外的运输成本，以吸引更多的跨国公司选择在海南设立制造基地。这将有助于促进海南自由贸易港的经济发展，吸引更多的投资和提高区域的竞争力。</p>
+<p><strong>结论9：</strong> 如果海南的生产技术水平与内地相同，则运输成本与关税成本直接决定跨国公司在两地的生产决策，具体为：直接节约成本为正时，跨国公司选择只在海南生产，否则只在内地生产。<br>结合结论8和9可以给出跨国公司生产策略的指导：如果关税成本较高且跨海运输成本较低，则跨国公司应选择海南作为主要生产基地；反之则选择将内地作为主要生产基地。</p>
+<h2 id="模型间的比较分析"><a href="#模型间的比较分析" class="headerlink" title="模型间的比较分析"></a>模型间的比较分析</h2><p>下面对三种生产模式下跨国公司和内地制造商的收益进行纵向比较，并分析不同生产模式下市场总利润和消费者剩余的变化。</p>
+<h3 id="对企业的影响"><a href="#对企业的影响" class="headerlink" title="对企业的影响"></a>对企业的影响</h3><p><strong>结论10：</strong> 跨国公司同时在两地生产时，跨国公司收益最大，内地制造商收益最小。<br>跨国公司同时在两地生产可以减轻规模不经济的负面影响，降低总生产成本，提高企业的竞争力；另外，降低生产成本还会刺激跨国公司提高产量，加剧了市场竞争，导致产品价格下降。跨国公司通过提高产量弥补甚至超过了价格下降造成的损失，获得了更多的利润。相反地，内地制造商由于考虑生产成本的因素并不会提高产量，从而造成其利润降低。</p>
+<h3 id="对市场的影响"><a href="#对市场的影响" class="headerlink" title="对市场的影响"></a>对市场的影响</h3><p><strong>结论11：</strong> 跨国公司同时在两地生产可以提高整个市场的总利润。<br>结论10指出，跨国公司同时在两地生产确实能使其获益，但内地制造商的利润会下降。这看似是“此消彼长”的局面，但结论11表明，跨国公司同时在两地生产可以实现市场利益最大化。具体来说，跨国公司同时在两地生产的模式能够获得更低的总生产成本，从而提高了整个市场的利润。</p>
+<h3 id="对消费者的影响"><a href="#对消费者的影响" class="headerlink" title="对消费者的影响"></a>对消费者的影响</h3><p><strong>结论12：</strong> 跨国公司同时在两地生产时，产品的市场价格最低，消费者剩余最大。<br>根据以上讨论，可以得出跨国公司同时在两地生产的模式对市场、消费者以及跨国公司自身带来了诸多好处。对于政府而言，鼓励和吸引已在内地拥有业务的跨国公司进入海南可以促进海南经济发展和产业转型升级，并且能够提高整个产品市场的利润，同时也使消费者获得更多的实惠。</p>
+<h1 id="数值分析"><a href="#数值分析" class="headerlink" title="数值分析"></a>数值分析</h1><p>由于部分最优解的表达式较为复杂，本节采用多组数值模拟的方法验证上述结论。限于篇幅，仅针对具有门槛值条件的结论进行验证，以便直观地理解结论并获得更多管理启示。</p>
+<p>（1）推论1的算例验证。参考吉清凯等[^41]的数值实验，令市场规模$\alpha$在范围[100, 200]内以步长10依次取值；规模不经济系数$b_0$、$b_1$分别在范围[0.1, 0.9]、[0.2, 1.0]内以步长0.1依次取值且保证$b_1&gt;b_0$；进口材料成本$c$在范围[10, 15]内以步长1依次取值；关税税率$r$在数列${0, 2%, 3%, 5%, 7%, 10%, 17%, 25%, 35%, 50%, 70%}$内依次取值；运输成本$t$在范围[1.0, 2.0]内以步长0.1依次取值，总计359 370组数例。依次统计算例中${\widetilde{q}}_m^\ast&gt;{\widetilde{q}}_l^\ast$的频率，统计结果绘图如图2所示。由纵轴数据可以看出，跨国公司市场份额占优的情况并不经常出现。此外，当海南规模不经济系数$b_1$和市场规模$\alpha$较高时，跨国公司市场份额占优的比例会显著降低。虽然在使用高关税税率的进口原材料时跨国公司份额占优的比例会增加，但总体而言，占优比例仍然相对较低。这与推论1的门槛条件吻合，在一般市场环境下，跨国公司仅在一处生产相对于内地制造商而言在产量和利润方面不具有相对优。<br><img src="https://alist-v312.nikeguo.repl.co/d/OneDrive%20-%20NCWU/Picture%20bed/blog/page/Figure-2_nogrid.svg" alt="Fig.2"></p>
+<p>（2）关税税率$r$和进口原材料成本$c$对模型3跨国公司在海南产量$q_h$的影响。图3展示的是跨国公司同时在两地加工时关税税率和进口材料成本对其在海南产量的影响，参数设置为：$\alpha&#x3D;200$；$b_0&#x3D;0.6$；$b_1&#x3D;0.8$；$t&#x3D;1$。由图3可知，当关税税率较低时，即r轴左侧区域，跨国公司在海南的产量随着进口材料成本的增加而减少；当关税税率较高时，即r轴右侧区域，跨国公司在海南的产量随着进口材料成本的增加而增加。表明进口原料成本对跨国公司在海南生产的影响并非恒定，同时也取决于关税税率。这一结论与灵敏性分析得出的结论一致，处在竞争环境下的跨国公司可以借助自贸港的税率优势，原料关税税率越高越能使跨国公司获得更大的市场份额。<br><img src="https://alist-v312.nikeguo.repl.co/d/OneDrive%20-%20NCWU/Picture%20bed/blog/page/Figure-1_model_hdxb.svg" alt="Fig.3"></p>
+<p>（3）内地规模不经济系数$b_0$对跨国公司总产量$q_m$的影响。跨国公司总产量受内地规模不经济程度的影响十分复杂，如内地规模不经济程度增加时，跨国公司在内地的产量会减少，但在海南的产量会增加，总产量的变化趋势无法判断，也难以得出一般形式的数学解，故借助数值实验研究，参数设置为：$\alpha&#x3D;100$；$c&#x3D;10$；$t&#x3D;5$；$r&#x3D;0.2$。由图4可知：当海南与内地的加工技术水平都处于较高或较低水平时，跨国公司总产量总是随$b_0$负向变化。然而，当两地的生产加工技术水平处于适中水平时，随着$b_0$增加趋近于$b_1$，跨国公司总产量先降低后提高。此外，在更高的关税税率条件下，这种转变趋势会提前出现。<br>这一现象的解释为：1）当两地规模不经济程度较低时，生产成本对产量的影响较小，$b_0$增加带来的直观结果是使跨国公司的总产量减少。2）当两地规模不经济程度适中时，考虑到跨国公司总产量由海南与内地两部分构成。当$b_0$处于较低水平时，内地的制造优势明显，此时$b_0$增加会削弱内地的加工优势，使跨国公司内地产量损失的负效应占主导，从而总产量减少；随着$b_0$增加到与$b_1$趋近，两地生产成本差异缩小，内地的加工优势不再明显，海南拥有免关税的材料成本优势，此时$b_0$增加使得海南产量提升的正效应超过内地产量损失的负效应，从而总产量提高。3）当两地规模不经济程度都较高时，由于生产成本过高，即使跨国公司在海南的产量会随$b_0$正向变化，但总体而言，产量提升能力有限，从而导致跨国公司总产量降低。<br><img src="https://alist-v312.nikeguo.repl.co/d/OneDrive%20-%20NCWU/Picture%20bed/blog/page/Figure-5_grid_color.svg" alt="Fig.4"></p>
+<h1 id="结论与启示"><a href="#结论与启示" class="headerlink" title="结论与启示"></a>结论与启示</h1><p>本文建立海南自贸港税率优惠背景下跨国公司与内地制造商的产量博弈模型，考虑生产规模不经济及自贸港加工增值内销免关税政策对跨国公司生产决策的影响。其中，跨国公司可以选择在内地或海南设立工厂，而内地制造商只有内地本土工厂。本文刻画了跨国公司不同生产模式下的最优均衡产量及利润，通过理论分析与数值算例揭示了关税税率和规模不经济系数对跨国公司最优产量的影响，并且在灵敏性分析中重点分析了这两项因素对两家公司生产决策的影响，以及不同生产模式对整个市场以及消费者的影响。</p>
+<p>本文主要研究结论表明：（1）对跨国公司而言，当进口材料成本高且跨海运输成本较低时，海南应作为其主要生产基地；当进口材料成本低且跨海运输成本较高时，内地应作为其主要生产基地。（2）相较于仅在一地生产，跨国公司应同时在两地生产，如此不仅可以提高其市场份额和利润，并且也会提高整个市场的总利润和消费者剩余。（3）海南应努力引进更有效率的生产工艺或生产设备，提高加工技术水平，减弱规模不经济效应，如此一来，税率优惠政策才能发挥更大的作用。</p>
+<p>本研究基于海南自贸港的实践，探讨了跨国公司是否应选择利用海南自贸港的零关税加工增值内销政策来实现海南生产的管理决策问题。本研究仍存在一些局限性，本文假设跨国公司的额外运输成本是外生变量，而实际上运输成本与货物数量之间可能存在非线性关系。此外，跨国公司在海南的初期生产可能会遇到产能限制等问题，因此未来研究可以将产能约束纳入考虑，以更全面地评估跨国公司的生产决策。此外，未来还可以研究海南生产中的延期交货问题，并考虑由此带来的惩罚成本和潜在客户流失等其他因素，这些因素同样会对跨国公司的生产决策产生影响。</p>
+<h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><details class="folding-tag" green><summary> 单击展开参考文献 </summary>
+              <div class='content'>
+              <p>[^2]: 熊安静,李小燕,孙继华.用足用好加工增值货物内销免关税政策 促进海南自由贸易港制造业高质量发展[N].中国经济时报,2021-12-16(003).<br>[^3]: 刘家诚,杨瑞金,林涛.中国特色自贸港建设背景下琼州海峡一体化发展对策研究[J].海南大学学报(人文社会科学版),2018,36(05):36-44.<br>[^4]: 王然,王崇敏.自由贸易港知识产权维权援助机制：构建路径与核心架构[J].海南大学学报(人文社会科学版),2019,37(06):30-38.<br>[^5]: 许生,张霞.销售税与海南自由贸易港财税改革[J].国际税收,2020(11):9-15.<br>[^6]: 张方波.金融开放助力海南自由贸易港建设：当前进展、面临挑战与纵深推进[J].海南大学学报(人文社会科学版),2022,40(04):56-64.<br>[^7]: 傅国华,马恺阳,张德生.构建现代产业体系背景下海南自贸港产业结构优化研究[J].海南大学学报(人文社会科学版),2022,40(02):92-100.<br>[^8]: 曾昭睿,陈经伟.海南自由贸易港建设能否跨越工业化发展阶段？[J].海南大学学报(人文社会科学版),2022,40(05):98-106.<br>[^9]: COHEN M A, MALLIK S. Global supply chains: research and applications[J]. Production and operations management,1997,6(03):193-210.<br>[^10]: SHUNKO M, DEBO L, GAVIRNENI S. Transfer pricing and sourcing strategies for multinational firms[J]. Production and operations management, 2014,23(12):2043-2057.<br>[^11]: 余淼杰,袁东.贸易自由化、加工贸易与成本加成——来自我国制造业企业的证据[J].管理世界,2016,32(09):33-43+54.<br>[^12]: 刘名武,刘亚琼,付巧灵.关税、权力结构与消费者偏好下的绿色供应链决策研究[J].中国管理科学,2022,30(03):131-141.<br>[^13]: 徐博,杨来科,常冉.中间品关税减让对企业全球价值链生产长度的影响[J].世界经济研究,2021(04):12-27+134.<br>[^14]: 刘名武,付巧灵,刘亚琼.加征关税下的跨国供应链决策及补贴策略研究[J].中国管理科学,2023,31(01):92-103.<br>[^15]: DÍEZ F J. The asymmetric effects of tariffs on intra-firm trade and offshoring decisions[J]. Journal of international economics, 2014,93(1):76-91.<br>[^16]: NIU B, MU Z, CHEN K. Quality spillover, tariff, and multinational firms’ local sourcing strategies[J]. International transactions in operational research, 2019,26(6):2508-2530.<br>[^17]: CHEN K, WANG X, NIU B, et al. The impact of tariffs and price premiums of locally manufactured products on global manufacturers’ sourcing strategies[J]. Production and operations management, 2022,31(9):3474-3490.<br>[^18]: KOPEL M, LÖFFLER C. Tax differences and international location strategies[J]. International journal of production economics, 2023,256:108749.<br>[^19]: HU X, FU K, CHEN Z, et al. Decision-making of transnational supply chain considering tariff and third-party logistics service[J]. Mathematics, 2022,10(5):770.<br>[^20]: 梁喜,梁伦海.关税与成本变动下零售商主导的跨境双渠道供应链定价决策[J].中国管理科学,2021,29(11):99-110.<br>[^21]: DAI D, WU X, SI F, et al. The impact of tariff policies on vaccine supply chains: short-term and evolutionary game behaviors based on uncertain utility[J]. Applied mathematical modelling, 2023,115:754-777.<br>[^22]: NIU B, CHEN L, WANG J. Ad valorem tariff vs. specific tariff: Quality-differentiated e-tailers’ profitability and social welfare in cross-border e-commerce[J]. Omega-international journal of management science, 2022,108:102584.<br>[^23]: NIU B, XU J, LEE C K M, et al. Order timing and tax planning when selling to a rival in a low-tax emerging market[J]. Transportation research part e: logistics and transportation review, 2019,123:165-179.<br>[^24]: HSU V N, XIAO W, XU J. The impact of tax and transfer pricing on a multinational firm’s strategic decision of selling to a rival[J]. Production and operations management, 2019,28(9):2279-2290.<br>[^25]: DENG S, XU J, HAN Y. A proprietary component manufacturer’s global supply chain design: The impacts of tax and organizational structure[J]. Omega-international journal of management science, 2023,115:102777.<br>[^26]: LAI G, LIU Y, XIAO W. International taxation and production outsourcing[J]. Production and operations management, 2021,30(2):402-418.<br>[^27]: HSU V N, ZHU K. Tax-effective supply Chain decisions under China’s export-oriented tax policies[J]. Manufacturing and service operations management, 2011,13(2):163-179.<br>[^28]: XU J, HSU V N, NIU B. The impacts of markets and tax on a multinational firm’s procurement strategy in China[J]. Production and operations management, 2018,27(2):251-264.<br>[^29]: NIU B, LI Q, LIU Y. Conflict management in a multinational firm’s production shifting decisions[J]. International journal of production economics, 2020,230:107880.<br>[^30]: YANG H, OU J, CHEN X. Impact of tariffs and production cost on a multinational firm’s incentive for backshoring under competition[J]. Omega-international journal of management science, 2021,105:102500.<br>[^31]: SHUNKO M, DO H T, TSAY A A. Supply Chain strategies and international tax arbitrage[J]. Production and operations management, 2017,26(2):231-251.<br>[^32]: NIU B, ZHANG N, XU H, et al. Inviting MNFs’ green offshoring: Is it an effective way to coordinate economic and environmental sustainability?[J]. International journal of production economics, 2022,254:108605.<br>[^33]: 丁军飞,陈伟达.生产商规模不经济下公平关切对闭环供应链的影响研究[J].系统工程学报,2022,37(01):117-129.<br>[^34]: 聂佳佳,石纯来.规模不经济对制造商开通直销渠道的影响[J].运筹与管理,2017,26(02):68-75.<br>[^35]: 洪银兴.论经济增长方式转变的基本内涵[J].管理世界,1999(04):15-22.<br>[^36]: MOLLICK A V. Production smoothing in the Japanese vehicle industry[J]. International journal of production economics, 2004, 91(1): 63-74.<br>[^37]: BISCHI G I, LAMANTIA F, SBRAGIA L. Competition and cooperation in natural resources exploitation: An evolutionary game approach[M]&#x2F;&#x2F;CARLO CARRARO, VITO FRAGNELLI. Game practice and the environment. Cheltenham: Edward Elgar Publishing,2004:3344<br>[^38]: 王先甲,周亚平,钱桂生.生产商规模不经济的双渠道供应链协调策略选择[J].管理科学学报,2017,20(01):17-31.<br>[^39]: 万骁乐,王茜,孟庆春,等.生产规模不经济性条件下考虑消费者偏好的智慧供应链扶贫模型研究[J].中国管理科学,2020,28(02):153-165.<br>[^40]: HA A Y, TONG S, ZHANG H. Sharing demand information in competing supply chains with production diseconomies[J]. Management science, 2011,57(3):566-581.<br>[^41]: 吉清凯,张凤麟,方刚,等.零售供应链中的区块链参与决策与产品定价博弈模型[J].中国管理科学,2023,31(03):102-112.</p>
+              </div>
+            </details>
+
+
+<h1 style="font-family: Times New Roman; text-align: center;">Production Decision Model of Multinational Firms under the Preferential Taxation of Hainan Free Trade Port</h1>
+
+<p><strong>Abstract</strong>: Motivated by the policy of “duty-free for domestic sale of processed value-added goods” in the Hainan Free Trade Port, this study examines production decisions between a multinational corporation (MNC) and a local manufacturer (LM) in industries with diseconomies of scale. We analyze three production modes: the MNC producing solely in Hainan, solely in the mainland, and in both locations simultaneously. Using Nash game theory, we determine the equilibrium quantities and profits under the preferential policy of Hainan Free Trade Port. Additionally, we perform sensitivity analysis to explore the impact of parameters such tax rate and shipping cost. We find that the MNC should opt to produce in both locations simultaneously, leading to increased profits and consumer surplus. Furthermore, when the cost of imported materials is high and shipping cost is low, the MNC should choose Hainan as its primary production base. Conversely, if the imported material’s cost is low and shipping cost is high, the mainland should serve as the main production base. These conclusions offer valuable managerial insights regarding the production decisions of MNC under the background of Hainan Free Trade Port’s preferential tax policy.<br><strong>Key words</strong>: Hainan Free Trade Port; tax rate preference; value-added processing; production decision; multinational corporation</p>
+</article><div class="post-copyright"><div class="post-copyright__title"><span class="post-copyright-info"><h>海南自贸港税率优惠下跨国公司的生产决策模型</h></span></div><div class="post-copyright__type"><span class="post-copyright-info"><a href="http://example.com/2023/07/04/%E3%80%90%E8%AE%BA%E6%96%87%20-%20Accept%E3%80%91%E6%B5%B7%E5%8D%97%E8%87%AA%E8%B4%B8%E6%B8%AF%E7%A8%8E%E7%8E%87%E4%BC%98%E6%83%A0%E4%B8%8B%E8%B7%A8%E5%9B%BD%E5%85%AC%E5%8F%B8%E7%9A%84%E7%94%9F%E4%BA%A7%E5%86%B3%E7%AD%96%E6%A8%A1%E5%9E%8B/">http://example.com/2023/07/04/【论文 - Accept】海南自贸港税率优惠下跨国公司的生产决策模型/</a></span></div><div class="post-copyright-m"><div class="post-copyright-m-info"><div class="post-copyright-a"><h>作者</h><div class="post-copyright-cc-info"><h>Guo Keting</h></div></div><div class="post-copyright-c"><h>发布于</h><div class="post-copyright-cc-info"><h>2023-07-04</h></div></div><div class="post-copyright-u"><h>更新于</h><div class="post-copyright-cc-info"><h>2023-09-27</h></div></div><div class="post-copyright-c"><h>许可协议</h><div class="post-copyright-cc-info"><a class="icon" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a><a rel="noopener" target="_blank" title="CC BY-NC-SA 4.0" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></div></div></div></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/img/avatar_bhl.jpg" data-sites="wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i>赞助</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://nickguo.oss-cn-beijing.aliyuncs.com/picture/blog/Collection%20code%20-%20weixin.png" target="_blank"><img class="post-qr-code-img" src="https://nickguo.oss-cn-beijing.aliyuncs.com/picture/blog/Collection%20code%20-%20weixin.png" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="https://nickguo.oss-cn-beijing.aliyuncs.com/picture/blog/Collection%20code%20-%20zhifubao.jpg" target="_blank"><img class="post-qr-code-img" src="https://nickguo.oss-cn-beijing.aliyuncs.com/picture/blog/Collection%20code%20-%20zhifubao.jpg" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2023/07/30/%E3%80%90Python%E3%80%91%E3%80%90matplotlib%E3%80%91legend%E5%87%BD%E6%95%B0/" title="Matplotlib-lengend 函数"><img class="cover" src="https://matplotlib.org/stable/_images/legend_00_00.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Matplotlib-lengend 函数</div></div></a></div><div class="next-post pull-right"><a href="/2023/07/04/%E3%80%90VPN%E3%80%91VPN%E8%8A%82%E7%82%B9%E6%8E%A8%E8%8D%90/" title="番羽土蔷"><div class="cover" style="background: /img/cover_default"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">番羽土蔷</div></div></a></div></nav><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div class="comment-switch"><span class="first-comment">Twikoo</span><span id="switch-btn"></span><span class="second-comment">Livere</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div><div><div id="lv-container" data-id="city" data-uid="MTAyMC80OTg4Ni8yNjM3Nw"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar_bhl.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Guo Keting</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">16</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/ncwuguo"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/nikeguo" target="_blank" title="Github"><i class="fab fa-github" style="color: ;"></i></a><a class="social-icon" href="mailto:1667623488@qq.com" target="_blank" title="E-mail"><i class="fas fa-envelope" style="color: ;"></i></a><a class="social-icon" href="/1667623488" target="_blank" title="QQ"><i class="fab fa-qq"></i></a><a class="social-icon" href="https://alist-v312.nikeguo.repl.co/" target="_blank" title="云盘"><i class="fas fa-cloud-download-alt"></i></a><a class="social-icon" href="https://weibo.com/u/6041741326" target="_blank" title="微博"><i class="fab fa-weibo"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content"><div id="welcome-info"></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%91%98%E8%A6%81"><span class="toc-number">1.</span> <span class="toc-text">摘要</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%BC%95%E8%A8%80"><span class="toc-number">2.</span> <span class="toc-text">引言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%96%87%E7%8C%AE%E5%9B%9E%E9%A1%BE"><span class="toc-number">3.</span> <span class="toc-text">文献回顾</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A8%A1%E5%9E%8B%E7%BB%93%E6%9E%84%E4%B8%8E%E5%8F%82%E6%95%B0%E5%81%87%E8%AE%BE"><span class="toc-number">4.</span> <span class="toc-text">模型结构与参数假设</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A8%A1%E5%9E%8B%E6%B1%82%E8%A7%A3%E4%B8%8E%E5%88%86%E6%9E%90"><span class="toc-number">5.</span> <span class="toc-text">模型求解与分析</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A8%A1%E5%9E%8B%E6%B1%82%E8%A7%A3"><span class="toc-number">5.1.</span> <span class="toc-text">模型求解</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A8%A1%E5%9E%8B1%EF%BC%9A%E8%B7%A8%E5%9B%BD%E5%85%AC%E5%8F%B8%E5%8F%AA%E5%9C%A8%E6%B5%B7%E5%8D%97%E7%94%9F%E4%BA%A7"><span class="toc-number">5.1.1.</span> <span class="toc-text">模型1：跨国公司只在海南生产</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A8%A1%E5%9E%8B2%EF%BC%9A%E8%B7%A8%E5%9B%BD%E5%85%AC%E5%8F%B8%E5%8F%AA%E5%9C%A8%E5%86%85%E5%9C%B0%E7%94%9F%E4%BA%A7"><span class="toc-number">5.1.2.</span> <span class="toc-text">模型2：跨国公司只在内地生产</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%A8%A1%E5%9E%8B3%EF%BC%9A%E8%B7%A8%E5%9B%BD%E5%85%AC%E5%8F%B8%E5%90%8C%E6%97%B6%E5%9C%A8%E6%B5%B7%E5%8D%97%E5%92%8C%E5%86%85%E5%9C%B0%E7%94%9F%E4%BA%A7"><span class="toc-number">5.1.3.</span> <span class="toc-text">模型3：跨国公司同时在海南和内地生产</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A8%A1%E5%9E%8B%E9%97%B4%E7%9A%84%E6%AF%94%E8%BE%83%E5%88%86%E6%9E%90"><span class="toc-number">5.2.</span> <span class="toc-text">模型间的比较分析</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%B9%E4%BC%81%E4%B8%9A%E7%9A%84%E5%BD%B1%E5%93%8D"><span class="toc-number">5.2.1.</span> <span class="toc-text">对企业的影响</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%B9%E5%B8%82%E5%9C%BA%E7%9A%84%E5%BD%B1%E5%93%8D"><span class="toc-number">5.2.2.</span> <span class="toc-text">对市场的影响</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AF%B9%E6%B6%88%E8%B4%B9%E8%80%85%E7%9A%84%E5%BD%B1%E5%93%8D"><span class="toc-number">5.2.3.</span> <span class="toc-text">对消费者的影响</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%95%B0%E5%80%BC%E5%88%86%E6%9E%90"><span class="toc-number">6.</span> <span class="toc-text">数值分析</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%BB%93%E8%AE%BA%E4%B8%8E%E5%90%AF%E7%A4%BA"><span class="toc-number">7.</span> <span class="toc-text">结论与启示</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE"><span class="toc-number">8.</span> <span class="toc-text">参考文献</span></a></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number">9.</span> <span class="toc-text">Production Decision Model of Multinational Firms under the Preferential Taxation of Hainan Free Trade Port</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2024/04/04/%E3%80%90Hexo%E3%80%91%E5%BC%80%E5%90%AFAplayer%E5%92%8C%E2%80%9C%E9%9F%B3%E4%B9%90%E2%80%9D%E9%A1%B5%E9%9D%A2/" title="HEXO - 开启Aplayer和“音乐”页面"><div style="background: /img/cover_default"></div></a><div class="content"><a class="title" href="/2024/04/04/%E3%80%90Hexo%E3%80%91%E5%BC%80%E5%90%AFAplayer%E5%92%8C%E2%80%9C%E9%9F%B3%E4%B9%90%E2%80%9D%E9%A1%B5%E9%9D%A2/" title="HEXO - 开启Aplayer和“音乐”页面">HEXO - 开启Aplayer和“音乐”页面</a><time datetime="2024-04-04T15:22:16.400Z" title="发表于 2024-04-04 23:22:16">2024-04-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/04/%E3%80%90Hexo%E3%80%91%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE/" title="开启博客搜索功能"><div style="background: /img/cover_default"></div></a><div class="content"><a class="title" href="/2024/04/04/%E3%80%90Hexo%E3%80%91%E6%8F%92%E4%BB%B6%E9%85%8D%E7%BD%AE/" title="开启博客搜索功能">开启博客搜索功能</a><time datetime="2024-04-04T15:22:16.397Z" title="发表于 2024-04-04 23:22:16">2024-04-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/04/%E3%80%90%E7%BE%8E%E5%8C%96%E3%80%91Windows%20Terminal%20%E7%BE%8E%E5%8C%96/" title="Windows Ternimal 美化"><div style="background: /img/cover_default"></div></a><div class="content"><a class="title" href="/2024/04/04/%E3%80%90%E7%BE%8E%E5%8C%96%E3%80%91Windows%20Terminal%20%E7%BE%8E%E5%8C%96/" title="Windows Ternimal 美化">Windows Ternimal 美化</a><time datetime="2024-04-04T15:22:16.393Z" title="发表于 2024-04-04 23:22:16">2024-04-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/04/%E3%80%90%E8%AE%BA%E6%96%87%E3%80%91%E6%9C%9F%E5%88%8A%E6%8E%92%E5%90%8D/" title="ABS期刊目录"><div style="background: /img/cover_default"></div></a><div class="content"><a class="title" href="/2024/04/04/%E3%80%90%E8%AE%BA%E6%96%87%E3%80%91%E6%9C%9F%E5%88%8A%E6%8E%92%E5%90%8D/" title="ABS期刊目录">ABS期刊目录</a><time datetime="2024-04-04T15:22:16.391Z" title="发表于 2024-04-04 23:22:16">2024-04-04</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/04/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81/" title="企业微信 - 打造专属自己的消息推送"><div style="background: /img/cover_default"></div></a><div class="content"><a class="title" href="/2024/04/04/%E3%80%90%E6%95%99%E7%A8%8B%E3%80%91%E4%BC%81%E4%B8%9A%E5%BE%AE%E4%BF%A1%E6%B6%88%E6%81%AF%E6%8E%A8%E9%80%81/" title="企业微信 - 打造专属自己的消息推送">企业微信 - 打造专属自己的消息推送</a><time datetime="2024-04-04T15:22:16.387Z" title="发表于 2024-04-04 23:22:16">2024-04-04</time></div></div></div></div></div></div></main><footer id="footer" style="background: /img/cover_default"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2024 By Guo Keting</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">ヾ(￣▽￣)Bye~Bye~   欢迎下次再来看哦^_^</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@5.2.0/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar@0.1.16/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (true){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, '']
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.min.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typesetPromise()
+}</script><script>(() => {
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: '',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: '',
+      region: '',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+
+    GLOBAL_CONFIG_SITE.isPost && getCount()
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') setTimeout(init,0)
+    else getScript('https://cdn.jsdelivr.net/npm/twikoo@1.6.31/dist/twikoo.all.min.js').then(init)
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script><script>(()=>{
+  const loadLivere = () => {
+    if (typeof LivereTower === 'object') window.LivereTower.init()
+    else {
+      (function(d, s) {
+          var j, e = d.getElementsByTagName(s)[0];
+          if (typeof LivereTower === 'function') { return; }
+          j = d.createElement(s);
+          j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+          j.async = true;
+          e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    }
+  }
+
+  if ('Twikoo' === 'Livere' || !false) {
+    if (false) btf.loadComment(document.getElementById('lv-container'), loadLivere)
+    else loadLivere()
+  } else {
+    window.loadOtherComment = loadLivere
+  }
+})()</script></div><script defer src="https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js"></script><script defer src="https://npm.elemecdn.com/hexo-theme-volantis@4.3.1/source/js/issues.js"></script><script async src="/js/grayscale.js"></script><script async src="/js/welcome.js"></script><div class="aplayer no-destroy" data-id="6928550427" data-server="netease" data-type="playlist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-fluttering-ribbon.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script src="//code.tidio.co/tcd9vc0yffwlft6o7g7vmgbtiktmmm5e.js" async="async"></script><script>(() => {
+  const isChatBtn = false
+  const isChatHideShow = false
+
+  if (isChatBtn) {
+    let isShow = false
+    const close = () => {
+      window.tidioChatApi.hide()
+      isShow = false
+    }
+    
+    const open = () => {
+      window.tidioChatApi.open()
+      window.tidioChatApi.show()
+      isShow = true
+    }
+
+    const onTidioChatApiReady = () => {
+      window.tidioChatApi.hide()
+      window.tidioChatApi.on("close", close)
+    }
+    if (window.tidioChatApi) {
+      window.tidioChatApi.on("ready", onTidioChatApiReady)
+    } else {
+      document.addEventListener("tidioChat-ready", onTidioChatApiReady)
+    }
+
+    window.chatBtnFn = () => {
+      if (!window.tidioChatApi) return
+      isShow ? close() : open()
+    }
+  } else if (isChatHideShow) {
+    window.chatBtn = {
+      hide: () => {
+        window.tidioChatApi && window.tidioChatApi.hide()
+      },
+      show: () => {
+        window.tidioChatApi && window.tidioChatApi.show()
+      }
+    }
+  }
+})()</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/metingjs/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["meta[property=\"og:image\"]","meta[property=\"og:title\"]","meta[property=\"og:url\"]","head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener
+  btf.removeGlobalFnEvent('pjax')
+  btf.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
